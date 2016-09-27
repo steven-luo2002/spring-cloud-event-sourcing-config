@@ -14,9 +14,9 @@ security:
 spring:
   profiles: development
   datasource:
-    url: jdbc:mysql://192.168.99.100:3306/dev
-    username: root
-    password: dbpass
+    url: jdbc:mysql://localhost:3306/springcloud
+    username: mysql
+    password: 123456
     initialize: false
 security:
   oauth2:
